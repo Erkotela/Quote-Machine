@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.box1 {
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  max-width: 50vw;
+  background-color: papayawhip;
+  border-radius: 1rem;
+}
